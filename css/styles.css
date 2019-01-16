@@ -1,3 +1,103 @@
+/* Mobile/Tablet Display */
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+body{
+    background-color: #f9fafc;
+    font-family: 'Open Sans', sans-serif;   /* Google Open Sans tag */
+}
+
+.heading {
+    font-weight: bold;
+    font-size: 16px;
+    color: #000;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+
+.nav_links {
+    flex-direction: column;
+ }
+
+ a {
+    font-weight: 800;
+    color: #69696a;
+    text-decoration: none;
+}
+
+/* ul {
+    text-align: left;
+    padding-left: 1px;
+}
+
+li {
+    list-style-type: none; 
+    padding: 3px;
+    
+}
+
+li a {
+    text-decoration: none;
+    color: #69696a;
+    font-weight: 800;
+    padding: 8px;
+} */
+
+button { 
+    font-weight: 400;
+    font-size: 14px;
+    color: #f9fafc;
+    background-color: #000;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    width: 100%; 
+} 
+
+#scroll_button {
+    font-weight: 400;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* margin-left: 600px; */
+    width:100%;
+    
+}
+
+.chirpus_Line {
+    font-weight: 700;
+    font-size: 30px;
+    width: 90%;
+    color: #000;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+.latin_Line {
+    font-weight: 600;
+    font-size: 16px;
+    width: 90%;
+    color: #69696a;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    border-left: 3px solid #bdbdc0;  /* For border left line in description */
+    margin-left: 20px;
+}
+
+/* Desktop Display */
+@media only screen and (min-width: 480px) {
+.flexcontainer {
+        display: flex;
+    }
+
 body {
     background-color: #f9fafc;
     font-family: 'Open Sans', sans-serif;   /* Google Open Sans tag */
@@ -11,22 +111,17 @@ body {
     padding-left: 10px;
 }
 
-ul {
-    text-align: right;
-    margin-top: -50px;
- } 
-
-li {
-    display: inline;
-    list-style-type: none;   /* Got rid of bullet points */
+.nav_links {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
 }
 
-li a {
+a {
     font-weight: 800;
     color: #69696a;
-    padding: 8px;
-    text-decoration: none;   /* Rid of underline */
-} 
+    text-decoration: none;
+}
 
 .chirpus_Line {
     font-weight: 700;
@@ -50,6 +145,10 @@ li a {
     margin-left: 20px;
 }
 
+p {
+    width: 38%;
+}
+
 button {
     font-weight: 400;
     font-size: 14px;
@@ -61,6 +160,7 @@ button {
     padding-right: 30px;
     border-radius: 20px;
     margin: 32px;
+    width: auto;
 }
 
 #scroll_button {
@@ -71,6 +171,7 @@ button {
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
+    width: auto;
     
 }
 
@@ -104,4 +205,5 @@ button {
     left: 200px;
     top: 150px;
     overflow: hidden;
+}
 }
