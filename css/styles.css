@@ -12,9 +12,8 @@ body {
 }
 
 ul {
-    text-align: center;
+    text-align: right;
     margin-top: -50px;
-    margin-right: -150px;
  } 
 
 li {
@@ -66,15 +65,14 @@ button {
 
 #scroll_button {
     font-weight: 350;
-    margin-top: 240px;
-    margin-left: 450px;
+    margin-top: 10px;
+    margin-left: 600px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
     
-} 
-
+}
 
 .circle1 {
     position: relative;
@@ -82,8 +80,8 @@ button {
     border-radius: 100%;
     width: 300px;
     height: 300px;
-    bottom: 440px;
-    left: 610px;
+    top: -100px;
+    left: 1000px;
 }
 
 .circle2 {
