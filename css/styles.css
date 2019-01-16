@@ -4,14 +4,15 @@ body {
 }
 
 .heading {
-    font-weight: 400;
+    font-weight: 800;
     font-size: 15px;
-    padding-top: 25px;
+    color: #000;
+    padding-top: 10px;
     padding-left: 10px;
 }
 
 .chirpus_Line {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 700;
     width: 90%;
     margin-top: 38px;
@@ -22,7 +23,7 @@ body {
 
 .latin_Line {
     font-weight: 600;
-    font-size: 15px;
+    font-size: 17px;
     /* width: 90%; */
     padding-top: 10px;
     padding-bottom: 8px;
@@ -32,28 +33,34 @@ body {
 }
 
 button {
-    width: auto;
-    font-weight: 600;
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 15px;
-    height: 55px;
+    /* width: auto; */
+    font-weight: 400;
+    font-size: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 20px;
     margin: 32px;
     color: #f9fafc;
     background-color: #000;
 }
 
 #prev-button {
+    font-weight: 350;
     margin-top: 230px;
     margin-left: 500px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     
 }
 
 ul {
     text-align: center;
     margin-top: -50px;
-    margin-right: -500px;
+    margin-right: -300px;
  } 
 
 li {
@@ -62,7 +69,7 @@ li {
 }
 
 li a {
-    font-weight: 400;
+    font-weight: 800;
     text-decoration: none;
     color: #69696a;
     padding: 10px;
@@ -80,8 +87,8 @@ li a {
     border-radius: 100%;
     background-color: rgba(247, 136, 167, 0.6);
     position: relative;
-    left: 800px;
-    bottom: 500px;
+    left: 630px;
+    bottom: 450px;
     overflow: hidden;
 }
 /* .circle2 {
