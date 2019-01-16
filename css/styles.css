@@ -18,52 +18,50 @@ ul {
  } 
 
 li {
-    list-style-type: none;
     display: inline;
+    list-style-type: none;   /* Got rid of bullet points */
 }
 
 li a {
     font-weight: 800;
-    text-decoration: none;
     color: #69696a;
     padding: 8px;
-
+    text-decoration: none;   /* Rid of underline */
 } 
 
 .chirpus_Line {
-    font-size: 30px;
     font-weight: 700;
+    font-size: 30px;
     width: 90%;
+    color: #000;
     margin-top: 38px;
     margin-left: 20px;
     margin-bottom: 20px;
-    color: #000;
 }
 
 .latin_Line {
     font-weight: 600;
     font-size: 16px;
     width: 90%;
+    color: #69696a;
     padding-top: 10px;
     padding-bottom: 8px;
     padding-left: 20px;
-    color: #69696a;
-    border-left: 3px solid #bdbdc0;
+    border-left: 3px solid #bdbdc0;  /* For border left line in description */
     margin-left: 20px;
 }
 
 button {
-    /* width: auto; */
     font-weight: 400;
     font-size: 14px;
+    color: #f9fafc;
+    background-color: #000;
     padding-top: 12px;
     padding-bottom: 12px;
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 20px;
     margin: 32px;
-    color: #f9fafc;
-    background-color: #000;
 }
 
 #scroll_button {
@@ -77,96 +75,35 @@ button {
     
 } 
 
-/* .circle1 {
-    width: 300px;
-    height: 300px;
-    border-radius: 100%;
-    background: rgba(247, 136, 167, 0.6);
-    position: relative;
-    left: 630px;
-    bottom: 450px;
-    overflow: hidden;
-}
-.circle2 {
-    width: 150px;
-    height: 150px;
-    background: red;
-    border-radius: 100%;
-    position: absolute;
-    left: 650px;
-    bottom: 480px;
-    overflow: hidden;
-}
-
-#top-left {
-    width: 150px;
-    height: 150px;
-    background: purple;
-    position: relative;
-    left: 650px;
-} */
-
 
 .circle1 {
+    position: relative;
+    background:rgba(247, 136, 167, 0.6);
+    border-radius: 100%;
     width: 300px;
     height: 300px;
-    background:rgba(247, 136, 167, 0.6);
-    position: relative;
-    /* top: 40px; */
     bottom: 440px;
     left: 610px;
-    border-radius: 100%;
 }
-/* .shape1 {
-    width: 180px;
-    height: 180px;
-    background:
-    border-radius: 100%;
-    position: 
-    left: 200px;
-    top: 150px;
-    overflow: hidden;
-} */
 
 .circle2 {
-    width: 140px;
-    height: 140px;
+    position: absolute;
     background: rgba(207, 130, 213, 0.6);
     border-radius: 100%;
-    position: absolute;
+    width: 140px;
+    height: 140px;
     left: 250px;
     top: 40px;
     overflow: hidden;
 }
 
-/* .shape2 {
-    width: 140px;
-    height: 140px;
-    background: rgba(207, 130, 213, 0.6);
-    border-radius: 100%;
-    position: relative;
-    left: 260px;
-    top: 40px;
-    overflow: hidden;
-} */
-
 .circle3 {
-    width: 180px;
-    height: 180px;
+    position: relative;
     background: rgba(247, 193, 162, 0.7);
     border-radius: 100%;
-    position: relative;
+    width: 180px;
+    height: 180px;
     left: 200px;
     top: 150px;
     overflow: hidden;
 }
-
-/* #top-left {
-    border-radius: 100%;
-    width: 150px;
-    height: 150px;
-    background: purple;
-    position: relative;
-    left: 20px;
-    bottom: 100px;
-} */
