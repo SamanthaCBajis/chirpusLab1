@@ -6,35 +6,48 @@ body {
 .heading {
     font-weight: 400;
     font-size: 15px;
-    padding-top: 10px;
+    padding-top: 25px;
     padding-left: 10px;
 }
 
 .chirpus_Line {
     font-size: 35px;
+    font-weight: 700;
     width: 90%;
     margin-top: 38px;
     margin-left: 20px;
+    margin-bottom: 20px;
+    color: #000;
 }
 
 .latin_Line {
-    font-weight: 400;
-    font-size: 14px;
-    width: 90%;
-    margin: auto;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    color: #88898B;
-    border-left: 5px solid #dbdbe2;
+    font-weight: 600;
+    font-size: 15px;
+    /* width: 90%; */
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    color: #69696a;
+    border-left: 3px solid #bdbdc0;
 }
+
 button {
     width: auto;
     font-weight: 600;
     padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     border-radius: 15px;
     height: 55px;
     margin: 32px;
+    color: #f9fafc;
+    background-color: #000;
+}
+
+#prev-button {
+    margin-top: 230px;
+    margin-left: 500px;
+    
 }
 
 ul {
@@ -52,7 +65,8 @@ li a {
     font-weight: 400;
     text-decoration: none;
     color: #69696a;
-    padding: 6px;
+    padding: 10px;
+
 }  
 
 .circle1 {
@@ -61,13 +75,13 @@ li a {
     background: red;
     position: relative;
     top: 40px; */
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
     background-color: rgba(247, 136, 167, 0.6);
     position: relative;
-    left: 700px;
-    /* top: 150px; */
+    left: 800px;
+    bottom: 500px;
     overflow: hidden;
 }
 /* .circle2 {
