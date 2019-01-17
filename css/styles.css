@@ -1,6 +1,7 @@
 /* Mobile/Tablet Display */
+
 .flex-container {
-    display: flex;
+    display: flex;           /* Flexbox for container */
     flex-direction: column;
 }
 body{
@@ -9,7 +10,7 @@ body{
 }
 
 .heading {
-    font-weight: bold;
+    font-weight: 900;
     font-size: 16px;
     color: #000;
     padding-top: 10px;
@@ -18,36 +19,22 @@ body{
 }
 
 .nav_links {
+    display: flex;            /* Flexbox for nav bar */
     flex-direction: column;
  }
 
  a {
     font-weight: 800;
     color: #69696a;
+    padding: 5px;
+    padding-top: 10px;
     text-decoration: none;
 }
-
-/* ul {
-    text-align: left;
-    padding-left: 1px;
-}
-
-li {
-    list-style-type: none; 
-    padding: 3px;
-    
-}
-
-li a {
-    text-decoration: none;
-    color: #69696a;
-    font-weight: 800;
-    padding: 8px;
-} */
 
 button { 
-    font-weight: 400;
-    font-size: 14px;
+    font-weight: 350;
+    font-size: 15px;
+    width: 100%; 
     color: #f9fafc;
     background-color: #000;
     padding-top: 12px;
@@ -55,25 +42,23 @@ button {
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 20px;
-    width: 100%; 
 } 
 
 #scroll_button {
-    font-weight: 400;
+    font-weight: 350;
+    font-size: 15px;
+    width:100%;
     margin-top: 10px;
     padding-top: 10px;
     padding-bottom: 12px;
     padding-left: 20px;
     padding-right: 20px;
-    /* margin-left: 600px; */
-    width:100%;
-    
 }
 
 .chirpus_Line {
     font-weight: 700;
     font-size: 30px;
-    width: 90%;
+    width: 90%; 
     color: #000;
     margin-top: 20px;
     margin-left: 5px;
@@ -83,19 +68,21 @@ button {
 .latin_Line {
     font-weight: 600;
     font-size: 16px;
-    width: 90%;
+    width: 90%;          /* Adjusted width to align paragraph properly */
     color: #69696a;
     padding-top: 5px;
     padding-bottom: 8px;
-    padding-left: 20px;
+    padding-left: 10px;
     border-left: 3px solid #bdbdc0;  /* For border left line in description */
-    margin-left: 20px;
 }
 
+
 /* Desktop Display */
+
 @media only screen and (min-width: 480px) {
 .flexcontainer {
-        display: flex;
+        display: flex;       /* Flexbox for container */
+        flex-direction: row;
     }
 
 body {
@@ -112,15 +99,19 @@ body {
 }
 
 .nav_links {
-    display: flex;
+    display: flex;          /* Flexbox for nav bar */
     flex-direction: row;
-    margin-left: auto;
+    margin-left: 60%;
 }
 
 a {
+    display: flex;          /* Flexbox for nav bar */
+    flex-direction: row;
     font-weight: 800;
     color: #69696a;
+    margin-right: 50px;
     text-decoration: none;
+    
 }
 
 .chirpus_Line {
@@ -136,22 +127,19 @@ a {
 .latin_Line {
     font-weight: 600;
     font-size: 16px;
-    width: 90%;
+    width: 90%;          /* Adjusted width to align paragraph properly */
     color: #69696a;
     padding-top: 10px;
     padding-bottom: 8px;
     padding-left: 20px;
-    border-left: 3px solid #bdbdc0;  /* For border left line in description */
     margin-left: 20px;
-}
-
-p {
-    width: 38%;
+    border-left: 3px solid #bdbdc0;  /* For border left line in description */
 }
 
 button {
     font-weight: 400;
     font-size: 14px;
+    width: auto;
     color: #f9fafc;
     background-color: #000;
     padding-top: 12px;
@@ -159,19 +147,17 @@ button {
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 20px;
-    margin: 32px;
-    width: auto;
 }
 
 #scroll_button {
     font-weight: 350;
+    width: auto;
     margin-top: 10px;
     margin-left: 600px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    width: auto;
     
 }
 
@@ -205,5 +191,9 @@ button {
     left: 200px;
     top: 150px;
     overflow: hidden;
+}
+
+p {
+    width: 38%;
 }
 }
